@@ -19,7 +19,7 @@ print("Slicing:", newlst)
 # Use dictionaries to store and retrieve student grades.
 stu_data = {}
 n = int(input("Enter number of students you want to store the data of: "))
-for i in range(n):
+for _ in range(n):
     name = input("Enter the name: ")
     rollno = input("Enter the roll no: ")
     branch = input("Enter the branch: ")
