@@ -10,3 +10,6 @@ Implement a function to check if a given string is palindrome,; Perform various 
 Create a class to represent a book with attributes and methods,; Implement inheritance by creating subclasses for different types of books,; Write a generator function to generate the Fibonacci series.
 ## Assignment 5:
 Use lambda function, map and filter to perform operations on a list,; Create a module that contains functions for mathematical operations,; Import and use functions from external packages (e.g. math, random).
+# Run
+```bash
+python3 assignment[assignment number].py
