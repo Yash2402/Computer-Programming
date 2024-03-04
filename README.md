@@ -12,4 +12,9 @@ Create a class to represent a book with attributes and methods,; Implement inher
 Use lambda function, map and filter to perform operations on a list,; Create a module that contains functions for mathematical operations,; Import and use functions from external packages (e.g. math, random).
 # Run
 ```bash
-python3 assignment[assignment number].py
+git clone https://github.com/Yash2402/Computer-Programming/
+```
+```bash
+cd Computer-Programming
+python3 assignment[assignment_number].py
+```
