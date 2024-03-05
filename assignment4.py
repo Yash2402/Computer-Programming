@@ -39,7 +39,7 @@ def Fibonacci():
 
 
 fib_gen = Fibonacci()
-limit = 10
+limit = int(input("Enter no of terms of Fibonacci Series: "))
 fib_series = []
 for _ in range(limit):
     fib_series.append(next(fib_gen))
