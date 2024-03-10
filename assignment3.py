@@ -25,13 +25,13 @@ for _ in range(n):
     branch = input("Enter the branch: ")
     stu_data[rollno] = [name, branch]
 
-search = input("Enter the roll no of the student you want to search: ")
 run = True
 while run:
+    search = input("Enter the roll no of the student you want to search: ")
     if search in list(stu_data.keys()):
         print(
             f"Name: {stu_data[search][0]}\nRoll No: {search}\nBranch: {stu_data[search][1]}"
         )
     else:
         print("404: Student Not Found!")
-    run = int(input("Do you want to exit [1(yes)/0(no)]: "))
+    run = 1 - int(input("Do you want to exit [1(yes)/0(no)]: "))
